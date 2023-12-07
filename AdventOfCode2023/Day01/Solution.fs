@@ -33,7 +33,7 @@ let parseLine =
 let parser = runParser (sepBy1 parseLine newline)
 
 let solution digitSelector text =
-    let parsed = parser text
+    let parsed = text |> parser
     printfn "%A" parsed
     let lines = parsed |> List.map (List.choose digitSelector)
 
