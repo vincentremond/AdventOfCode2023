@@ -6,3 +6,5 @@ module Tuple =
 [<RequireQualifiedAccess>]
 module Tuple2 =
     let apply f (x, y) = f x y
+
+    let bind f (x, y) = f x y

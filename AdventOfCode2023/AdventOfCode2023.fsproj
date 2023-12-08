@@ -17,6 +17,9 @@
     <Content Include="Day02\data\sample" />
     <Content Include="Day02\data\personnal" />
     <Compile Include="Day02\Solution.fs" />
+    <Compile Include="Day03\Solution.fs" />
+    <Content Include="Day03\test" />
+    <Content Include="Day03\user" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AdventOfCode2023.Common\AdventOfCode2023.Common.fsproj" />
