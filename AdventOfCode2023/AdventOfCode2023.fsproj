@@ -10,13 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="paket.references" />
-    <Content Include="Day01\data\sample1" />
-    <Content Include="Day01\data\sample2" />
-    <Content Include="Day01\data\personnal" />
     <Compile Include="Day01\Solution.fs" />
-    <Content Include="Day02\data\sample" />
-    <Content Include="Day02\data\personnal" />
+    <Content Include="Day01\test1" />
+    <Content Include="Day01\test2" />
+    <Content Include="Day01\user" />
     <Compile Include="Day02\Solution.fs" />
+    <Content Include="Day02\test" />
+    <Content Include="Day02\user" />
     <Compile Include="Day03\Solution.fs" />
     <Content Include="Day03\test" />
     <Content Include="Day03\user" />
