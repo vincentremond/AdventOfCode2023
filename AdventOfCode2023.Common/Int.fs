@@ -7,10 +7,6 @@ module Int =
 
 [<RequireQualifiedAccess>]
 module Int64 =
-    let diffMax<'t when 't : comparison> d (max: 't) (a: 't) (b: 't) =
-        let diff =
-            if a > b then
-                d a b
-            else
-                d b a
+    let diffMax<'t when 't: comparison> d (max: 't) (a: 't) (b: 't) =
+        let diff = if a > b then d a b else d b a
         diff <= max
