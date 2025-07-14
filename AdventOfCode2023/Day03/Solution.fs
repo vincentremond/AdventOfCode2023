@@ -142,4 +142,3 @@ let ``part 2 test`` () =
 [<Test>]
 let ``part 2 user`` () =
     test 81709807 (solutionPart2 TextFile.Day03.user.Text)
-    

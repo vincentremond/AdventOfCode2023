@@ -6,5 +6,6 @@ nuget FParsec
 nuget FSharp.Core
 nuget coverlet.collector
 nuget FSharp.Data.LiteralProviders
+nuget FsUnit
 nuget Microsoft.NET.Test.Sdk
 nuget NUnit

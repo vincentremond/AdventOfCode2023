@@ -90,10 +90,10 @@ let solutionPart2 text =
 
 [<Test>]
 let ``part 1`` () =
-    test 8 (solutionPart1 TextFile.Day02.data.sample.Text)
-    test 2593 (solutionPart1 TextFile.Day02.data.personnal.Text)
+    test 8 (solutionPart1 TextFile.Day02.test.Text)
+    test 2593 (solutionPart1 TextFile.Day02.user.Text)
 
 [<Test>]
 let ``part 2`` () =
-    test 2286 (solutionPart2 TextFile.Day02.data.sample.Text)
-    test 54699 (solutionPart2 TextFile.Day02.data.personnal.Text)
+    test 2286 (solutionPart2 TextFile.Day02.test.Text)
+    test 54699 (solutionPart2 TextFile.Day02.user.Text)

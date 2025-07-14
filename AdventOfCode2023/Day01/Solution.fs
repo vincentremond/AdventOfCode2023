@@ -50,9 +50,9 @@ let ``part 1`` () =
         | MiscLetter _ -> None
         | Digit v -> Some v
         | SpelledDigit _ -> None
-    
-    test 142 (solution chooser TextFile.Day01.data.sample1.Text)
-    test 55090 (solution chooser TextFile.Day01.data.personnal.Text)
+
+    test 142 (solution chooser TextFile.Day01.test1.Text)
+    test 55090 (solution chooser TextFile.Day01.user.Text)
 
 [<Test>]
 let ``part 2`` () =
@@ -62,5 +62,5 @@ let ``part 2`` () =
         | Digit v -> Some v
         | SpelledDigit v -> Some v
 
-    test 281 (solution chooser TextFile.Day01.data.sample2.Text)
-    test 54845 (solution chooser TextFile.Day01.data.personnal.Text)
+    test 281 (solution chooser TextFile.Day01.test2.Text)
+    test 54845 (solution chooser TextFile.Day01.user.Text)
